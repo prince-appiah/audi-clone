@@ -10,3 +10,11 @@
 body {
   font-family: "Kanit", sans-serif;
 }
+
+.hero {
+  /* height: 500px; */
+  object-fit: contain;
+  background-image: url("./assets/hero.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+}

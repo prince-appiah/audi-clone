@@ -1,12 +1,13 @@
-import { FaGlobe, FaSearch } from "react-icons/fa";
+import { AiOutlineSearch } from "react-icons/ai";
+import { FiGlobe } from "react-icons/fi";
 
 export const Header = () => {
   return (
-    <header className="fixed flex flex-col items-center justify-between w-full ">
+    <header className="sticky flex flex-col items-center justify-between w-full">
       <nav className="flex items-center justify-between w-full px-5 py-1 font-thin text-white bg-black">
-        <ul className="flex ">
-          <li className="mr-5 ">Press</li>
-          <li className="mr-5">Sds</li>
+        <ul className="flex">
+          <li className="mr-5 ">Press & Media Center</li>
+          <li className="mr-5">Contact</li>
         </ul>
         <ul className="flex">
           <li className="mr-5">DE</li>
@@ -15,24 +16,24 @@ export const Header = () => {
       </nav>
 
       <nav className="flex items-center justify-between w-full px-4 py-5 bg-white border-b border-gray-200">
-        <ul className="flex">
+        <ul className="flex ">
           <li className="mr-5">
-            <button>Experience Audi</button>
+            <button className="font-light">Experience Audi</button>
           </li>
           <li className="mr-5">
-            <button>Company</button>
+            <button className="font-light">Company</button>
           </li>
           <li className="mr-5">
-            <button>Careers</button>
+            <button className="font-light">Careers</button>
           </li>
         </ul>
 
         <ul className="flex">
           <li className="mr-5">
-            <FaSearch />
+            <AiOutlineSearch />
           </li>
           <li className="mr-5">
-            <FaGlobe />
+            <FiGlobe />
           </li>
         </ul>
       </nav>
