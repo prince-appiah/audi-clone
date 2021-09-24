@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa";
 
 export const Footer = () => {
+  // eslint-disable-next-line
   const [links, setLinks] = useState(data);
   const socialIcons = [
     FaFacebook,
