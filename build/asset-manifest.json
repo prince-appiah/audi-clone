@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "./static/css/main.1dbd427c.chunk.css",
+    "main.js": "./static/js/main.47c01422.chunk.js",
+    "main.js.map": "./static/js/main.47c01422.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.ad3becb2.js",
+    "runtime-main.js.map": "./static/js/runtime-main.ad3becb2.js.map",
+    "static/js/2.9f5f4c94.chunk.js": "./static/js/2.9f5f4c94.chunk.js",
+    "static/js/2.9f5f4c94.chunk.js.map": "./static/js/2.9f5f4c94.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.1dbd427c.chunk.css.map": "./static/css/main.1dbd427c.chunk.css.map",
+    "static/js/2.9f5f4c94.chunk.js.LICENSE.txt": "./static/js/2.9f5f4c94.chunk.js.LICENSE.txt",
+    "static/media/assessment1.2715a136.webp": "./static/media/assessment1.2715a136.webp",
+    "static/media/assessment2.63d69658.webp": "./static/media/assessment2.63d69658.webp",
+    "static/media/assessment3.e5747ba7.webp": "./static/media/assessment3.e5747ba7.webp",
+    "static/media/company.3f726587.webp": "./static/media/company.3f726587.webp",
+    "static/media/experience.68e62151.webp": "./static/media/experience.68e62151.webp",
+    "static/media/future-car.8696fbc5.webp": "./static/media/future-car.8696fbc5.webp",
+    "static/media/index.css": "./static/media/home-of-football.67e088de.webp",
+    "static/media/holorider.cec86cc4.webp": "./static/media/holorider.cec86cc4.webp",
+    "static/media/meeting.07d9d0a4.webp": "./static/media/meeting.07d9d0a4.webp",
+    "static/media/models.d28088d0.webp": "./static/media/models.d28088d0.webp",
+    "static/media/progress.3a0bee11.webp": "./static/media/progress.3a0bee11.webp",
+    "static/media/racer.5d1d8d44.png": "./static/media/racer.5d1d8d44.png",
+    "static/media/stadium.f471d615.jpeg": "./static/media/stadium.f471d615.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad3becb2.js",
+    "static/js/2.9f5f4c94.chunk.js",
+    "static/css/main.1dbd427c.chunk.css",
+    "static/js/main.47c01422.chunk.js"
+  ]
+}
