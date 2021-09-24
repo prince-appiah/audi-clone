@@ -1,35 +1,35 @@
-import { v4 as uuidv4 } from 'uuid'
+import { v4 as uuidv4 } from "uuid";
+import meeting from "../assets/meeting.webp";
+import holorider from "../assets/holorider.webp";
+import racer from "../assets/racer.png";
+import stadium from "../assets/stadium.jpeg";
 
 const data = [
   {
     id: uuidv4(),
-    image: './images/looking-back.jpg',
-    title: 'Looking back at 2020: a year to reflect on',
-    desc:
-      'The year 2020 is certainly one to be remembered. It was less about selling cars and more about supporting one another, health and solidarity!. The "new normal" now means being more digital, more flexible and more personal than before. This is a challenge for everyone - also for Audi.',
+    image: meeting,
+    title: "Audi Media Days: make way for the future of mobility",
+    desc: "From August 25 to September 1 Audi welcomed media representatives from all over the world to its Audi Media Days in the run-up to the IAA Mobility 2021 auto show – a series of five events which, this year, focused on the company’s new strategy and sustainable solutions for the future of mobility.",
   },
   {
     id: uuidv4(),
-    image: './images/special_message.jpg',
-    title: 'Special message with the Audi digital matrix light',
-    desc:
-      'With the help of digital matrix LED technology, Audi lighting designer and Bayern Munich fan, Cesar Muntada, sends very special configurations to his favorite team.',
+    image: holorider,
+    title: "The car as an entertainment platform",
+    desc: "Audi is using virtual reality (VR) to travel back in time through the history of the Salzburg Festival. Guests will be able to visually and acoustically experience Salzburg since Mozart’s childhood in an Audi e-tron. In this context, VR technology from holoride will whisk them away into three-dimensional worlds.",
   },
   {
     id: uuidv4(),
-    image: './images/everyone.webp',
-    title: 'Everyone has rights',
-    desc:
-      'United Nations Guiding Principles on Business and Human Rights are systematically integrated into the standard processes of Audi. In the interview we talked about the implementation with Jasmin Lotze and Sarah Schwellinger.',
+    image: racer,
+    title: "Valuable e-ra",
+    desc: "After seven successful years Audi left Formula E: with two title wins, 14 victories and 47 podiums in a total of 84 races with all-electric drive.",
   },
   {
     id: uuidv4(),
-    image: './images/e-tron.webp',
+    image: stadium,
     title:
-      'The Audi e-tron triple 2020: this is what sustainable success looks like',
-    desc:
-      'With the e-tron triple 2020 wrap, Audi is celebrating Bayern Munich winning the triple in 2020. Audi designer, Marco Dos Santos, explains the exclusive design of the car wrap.',
+      "Impressive impressions: a progressive look at the Audi Football Summit",
+    desc: "Experience progress in a visual way. The Audi Football Summit became the subject matter for four sports photographers. With creative ingenuity, they interpreted events on the pitch in their own inimitable fashion.",
   },
-]
+];
 
-export default data
+export default data;

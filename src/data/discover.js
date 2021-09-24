@@ -1,26 +1,30 @@
-import { v4 as uuidv4 } from 'uuid'
+import { v4 as uuidv4 } from "uuid";
+import company from "../assets/company.webp";
+import models from "../assets/models.webp";
+import progress from "../assets/progress.webp";
+import experience from "../assets/experience.webp";
 
 const data = [
   {
     id: uuidv4(),
-    image: './images/company.webp',
-    title: 'Company',
+    image: company,
+    title: "Company",
   },
   {
     id: uuidv4(),
-    image: './images/models.webp',
-    title: 'Models',
+    image: models,
+    title: "Models",
   },
   {
     id: uuidv4(),
-    image: './images/careers.webp',
-    title: 'Careers',
+    image: progress,
+    title: "Careers",
   },
   {
     id: uuidv4(),
-    image: './images/experience_audi.webp',
-    title: 'Experience Audi',
+    image: experience,
+    title: "Experience Audi",
   },
-]
+];
 
-export default data
+export default data;

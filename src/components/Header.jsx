@@ -3,7 +3,7 @@ import { FiGlobe } from "react-icons/fi";
 
 export const Header = () => {
   return (
-    <header className="sticky flex flex-col items-center justify-between w-full">
+    <header className="fixed z-20 flex flex-col items-center justify-between w-full">
       <nav className="flex items-center justify-between w-full px-5 py-1 font-thin text-white bg-black">
         <ul className="flex">
           <li className="mr-5 ">Press & Media Center</li>

@@ -12,9 +12,60 @@ body {
 }
 
 .hero {
-  /* height: 500px; */
   object-fit: contain;
+  height: 350px;
   background-image: url("./assets/hero.webp");
   background-position: center center;
   background-repeat: no-repeat;
+}
+
+.hero .overlay {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+/* .showcase {
+  object-fit: contain;
+  height: 350px;
+  background-image: url("./assets/home-of-football.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.showcase .overlay {
+  background-color: rgba(0, 0, 0, 0.85);
+} */
+
+@media (min-width: 1024px) {
+  .hero {
+    object-fit: contain;
+    height: 350px;
+    background-image: url("./assets/home-of-football.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .hero .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media (min-width: 600px) {
+  .showcase {
+    object-fit: contain;
+    height: 350px;
+    background-image: url("./assets/home-of-football.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .showcase .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+.discover h4 {
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%, -50%);
+}
+
+.btn {
+  @apply px-20 py-4 font-light transition-colors bg-white border border-black hover:border-gray-700 hover:text-gray-700;
 }
