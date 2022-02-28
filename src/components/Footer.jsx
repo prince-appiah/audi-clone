@@ -28,7 +28,7 @@ export const Footer = () => {
         ))}
       </ul>
       {/* links */}
-      <div className="">
+      <div className="md:flex md:justify-between">
         {links.map((item) => (
           <div className="py-4" key={item.id}>
             <h4 className="font-sans font-medium">{item.title}</h4>
@@ -45,7 +45,7 @@ export const Footer = () => {
       {/* divider and copyright */}
       <div className="flex flex-col mt-8 font-light">
         <h4> &copy; AUDI AG. All rights reserved</h4>
-        <ul className="flex flex-wrap-reverse justify-between font-thin sm:flex-none sm:justify-start">
+        <ul className="flex flex-wrap-reverse justify-between font-thin sm:flex-none sm:justify-between">
           <div className="pt-4">
             <li>Legal notice</li>
             <li>Cookie Policy</li>
